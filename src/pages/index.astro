@@ -1,15 +1,40 @@
 ---
+const pageTitle = "About Me";
+const identity = {
+    firstName: "Zane",
+    country: "US",
+    occupation: "Student",
+    hobbies: ["guitar"],
+    github: "cuicides",
+    website: "https://zane-worthington.com",
+};
+const skills = ["Premiere Pro", "Davinci Resolve", "Linux"];
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} >
-    <title>Astro</title>
-  </head>
-  <body>
-    <h1>Astro</h1>
-    <h1>My astro site</h1>
-  </body>
+// about me / home page
+---
+
+<html>
+    <head>
+        <title>{pageTitle}</title>
+    </head>
+    <body>
+        <h1>{pageTitle}</h1>
+        <ul>
+            <li><a href="/posts/post-1/">Post 1</a></li>
+        </ul>
+        <p>Here are a few facts about me:</p>
+        <ul>
+            <li>My name is {identity.firstName}</li>
+            <li>I live in {identity.country}</li>
+            <li>I am a {identity.occupation}</li>
+            <li>I enjoy {identity.hobbies.join(", ")}</li>
+            <li>You can find me on GitHub at {identity.github}</li>
+            <li>My website is {identity.website}</li>
+        </ul>
+    </body>
 </html>
+<style>
+    h1 {
+        color: orange;
+    }
+</style>
