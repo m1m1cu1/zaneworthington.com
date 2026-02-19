@@ -1,4 +1,5 @@
 ---
+import "../styles/global.css";
 const pageTitle = "About Me";
 const identity = {
     firstName: "Zane",
@@ -25,7 +26,7 @@ const skills = ["Premiere Pro", "Davinci Resolve", "Linux"];
         <p>Here are a few facts about me:</p>
         <ul>
             <li>My name is {identity.firstName}</li>
-            <li>I live in {identity.country}</li>
+            <li>I live in the {identity.country}</li>
             <li>I am a {identity.occupation}</li>
             <li>I enjoy {identity.hobbies.join(", ")}</li>
             <li>You can find me on GitHub at {identity.github}</li>
@@ -33,8 +34,4 @@ const skills = ["Premiere Pro", "Davinci Resolve", "Linux"];
         </ul>
     </body>
 </html>
-<style>
-    h1 {
-        color: orange;
-    }
-</style>
+<style></style>

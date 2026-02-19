@@ -1,0 +1,65 @@
+body {
+    color: white;
+    font-family: MS Gothic;
+    text-align: center;
+    text-transform: lowercase;
+    background-image: url("https://static.wixstatic.com/media/30b6de_79f9f81703c043bb8e230bb6176f0c04~mv2.gif");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    background-color: black;
+    background-attachment: fixed;
+}
+* {
+    box-sizing: border-box;
+}
+h1 {
+    color: red;
+    margin: 1rem 0;
+    font-size: 2.5rem;
+}
+
+body:before {
+    content: " ";
+    filter: grayscale(1);
+    height: 100vh;
+
+    width: 100vw;
+
+    display: block;
+
+    position: fixed;
+
+    top: 0;
+
+    left: 0;
+
+    z-index: 100;
+
+    background-image: url(https://4.bp.blogspot.com/-u7SOitKmXFo/V8G_6BdZAQI/AAAAAAAAqWw/X4yf4M_f0gou7QvyCsq_CoKhMERGCblKQCLcB/s1600/SAMARA%2Bdigo%2BLAIN.gif);
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    animation: yourAnimation 1s ease 1s 1 normal forwards;
+
+    pointer-events: none;
+}
+
+@keyframes yourAnimation {
+    0.0% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+* cursor {
+    url(https://cur.cursors-4u.net/holidays/hol-4/hol338.cur), auto !important;
+}</style><a href="https://www.cursors-4u.com/cursor/2009/10/14/tiny-skull-crossbones.html" target="_blank" title="Tiny Skull Crossbones"><img src="https://cur.cursors-4u.net/cursor.png" alt="Tiny Skull Crossbones" style="position:absolute; top: 0px; right: 0px;"/></a>
