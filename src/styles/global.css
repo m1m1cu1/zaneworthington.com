@@ -45,6 +45,7 @@ body:before {
     background-position: center;
 
     animation: yourAnimation 1s ease 1s 1 normal forwards;
+    pointer-events: none;
 }
 
 @keyframes yourAnimation {
