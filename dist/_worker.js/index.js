@@ -1,13 +1,17 @@
 globalThis.process ??= {}; globalThis.process.env ??= {};
 import { renderers } from './renderers.mjs';
-import { c as createExports, s as serverEntrypointModule } from './chunks/_@astrojs-ssr-adapter_Bt_F_ZIM.mjs';
-import { manifest } from './manifest_CfRhYUX1.mjs';
+import { c as createExports, s as serverEntrypointModule } from './chunks/_@astrojs-ssr-adapter_Dv3Yk4nw.mjs';
+import { manifest } from './manifest_DUhW1jdk.mjs';
 
 const serverIslandMap = new Map();;
 
-const _page0 = () => import('./pages/index.astro.mjs');
+const _page0 = () => import('./pages/about.astro.mjs');
+const _page1 = () => import('./pages/posts/post-1.astro.mjs');
+const _page2 = () => import('./pages/index.astro.mjs');
 const pageMap = new Map([
-    ["src/pages/index.astro", _page0]
+    ["src/pages/about.astro", _page0],
+    ["src/pages/posts/post-1.md", _page1],
+    ["src/pages/index.astro", _page2]
 ]);
 
 const _manifest = Object.assign(manifest, {

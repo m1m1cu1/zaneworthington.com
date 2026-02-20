@@ -1,7 +1,11 @@
 ---
 import Navigation from "../components/Navigation.astro";
+import Footer from "../components/Footer.astro";
+import Social from "../components/Social.astro";
 import "../styles/global.css";
 import "../styles/lain.css";
+const platform = "github";
+const username = "cuicides";
 const pageTitle = "About Me";
 const identity = {
     firstName: "Zane",
@@ -41,6 +45,11 @@ const skills = ["Premiere Pro", "Davinci Resolve", "Linux"];
             <li>You can find me on GitHub at {identity.github}</li>
             <li>My website is {identity.website}</li>
         </ul>
+        <footer>
+            <Social platform="github" username="cuicides" />
+            <Social platform="spacehey" username="mimicui" />
+            <Social platform="youtube" username="@m1m1cu1" />
+        </footer>
     </body>
 
     <style></style>
