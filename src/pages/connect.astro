@@ -4,10 +4,7 @@ import Footer from "../components/Footer.astro";
 import Social from "../components/Social.astro";
 import "../styles/audio.css";
 import "../styles/global.css";
-import "../styles/lain.css";
-const pageTitle = "home";
-
-// about me / home page
+const pageTitle = "connect";
 ---
 
 <html>
@@ -18,14 +15,6 @@ const pageTitle = "home";
 
     <body>
         <h1>{pageTitle}</h1>
-
-        <p>this is a page of all my stuff</p>
-        <audio controls autoplay>
-            <source
-                src="Black Country New Road - 'Athens, France' (Official Lyric Video).mp3"
-                type="audio/ogg"
-            />
-        </audio>
         <footer>
             <h2>links</h2>
             <Social platform="github" username="m1m1cu1" />
@@ -40,6 +29,5 @@ const pageTitle = "home";
         </footer>
     </body><style></style>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 </html>
