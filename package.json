@@ -14,17 +14,17 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "@astrojs/cloudflare": "^12.6.5",
-    "@astrojs/react": "^4.4.2",
-    "@astrojs/ts-plugin": "^1.10.6",
+    "@astrojs/cloudflare": "^13.1.6",
+    "@astrojs/react": "^5.0.2",
+    "@astrojs/ts-plugin": "^1.10.7",
     "@react-navigation/native": "^7.1.28",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "astro": "^5.17.3",
+    "astro": "^6.1.2",
     "react": "^19.2.4",
     "react-dom": "^19.2.4"
   },
   "devDependencies": {
-    "wrangler": "^4.66.0"
+    "wrangler": "^4.79.0"
   }
 }

@@ -3,11 +3,16 @@ body {
     font-family: MS Gothic;
     text-align: center;
     text-transform: lowercase;
-    width: 50%;
-    max-width: 100%;
     background-color: rgba(0, 0, 0, 0.9);
-    max-height: auto;
-    min-height: fit-content;
+    font-size: 12px;
+}
+main {
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 45px;
+    border: 4px solid #1d1c32;
+    width: 60%;
+    border-radius: 3px;
 }
 li {
     list-style-type: none;
@@ -31,27 +36,12 @@ header {
     text-align: center;
     font-size: 100%;
     margin: 10px auto;
-    padding: 10px 10px;
+    padding: 0%;
     background: #000000;
-    width: 100%;
-    border-radius: 10px;
-    border-color: white;
-    border-width: 5px;
-    border-style: solid;
+    width: 750px;
+    border-bottom: 4px solid #ffffff;
 }
-footer {
-    vertical-align: bottom;
-    text-align: center;
-    font-size: 100%;
-    margin: 10px auto;
-    padding: 10px 10px;
-    background: #000000;
-    width: 100%;
-    border-radius: 10px;
-    border-color: white;
-    border-width: 5px;
-    border-style: solid;
-}
+
 html {
     display: flex;
     justify-content: center;
@@ -67,7 +57,7 @@ html {
     background-attachment: fixed;
     lang: en;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 10240px) {
     .content {
         width: 100% !important;
         display: block !important;
@@ -78,4 +68,52 @@ html {
     .footer {
         padding: 20px !important;
     }
+}
+
+.header {
+    border-bottom: 4px solid #1d1c32;
+    padding: 0px;
+    overflow-y: auto;
+}
+
+.header img {
+    width: 100%;
+    padding: 0px;
+    display: block;
+}
+.text img {
+    max-width: 100%;
+    height: auto;
+}
+.sub {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background: #1d1c32;
+    padding-top: 3px;
+    padding-bottom: 6px;
+    text-align: center;
+}
+
+.footer {
+    font-size: 12px;
+    color: white;
+    background: #1d1c32;
+    padding-top: 4px;
+    padding-bottom: 1px;
+    text-align: center;
+}
+.links {
+    margin: 0px;
+    padding: 0;
+}
+
+.links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.links a:hover {
+    background: #774459;
 }
